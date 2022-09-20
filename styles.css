@@ -17,58 +17,6 @@
     color: #EE6055;
     font-weight: bold;
 }
-.redinput{
-    background: #F27272;
-    color: white;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    height: 40px;
-}
-.redinput::placeholder{
-    color: white;
-}
-.etiqueta{
-    background-color: white;
-    display: inline-flex;
-    align-items: center;
-    color: #F27272;
-    border-radius: 20px;
-    margin: 5px;
-    height: 35px;
-    padding-left: 5px;
-}
-.etiqueta div{
- padding: 5px;
-    border-radius: 50%;
-    background-color: #F27272;
-    margin: 5px;
-}
-.redtextarea{
-    background-color: #F2F2F2;
-    border: none;
-    border-radius: 20px;
-    outline: none;
-    color: #595959;
-    resize: none;
-    overflow: hidden;
-    overflow-y: scroll;
-}
-.scrollred{
-
-}
-.scrollred::-webkit-scrollbar{
-    width: 14px;
-}
-.scrollred::-webkit-scrollbar-track{
-    background: #FAD0D0;
-    border-radius: 10px;
-}
-.scrollred::-webkit-scrollbar-thumb{
-    background: #D16262;
-    border-radius: 20px;
-    
-}
 
 body {
     background-image: url("img/breakfast-omelette-with-radish-green-arugula-sandwich-with-salmon-white-plate-frittata-italian-omelet-top-view (1).jpg");
@@ -97,6 +45,7 @@ body {
 }
 
 .footer {
+    object-position: bottom;
     width: 100%;
     height: 6rem;
     background: linear-gradient(to top, #7ade56, rgba(255, 255, 255, 0));
